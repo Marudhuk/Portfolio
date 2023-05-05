@@ -1,2 +1,2 @@
-# Portfolio
-Its for My Portfolio Website
+# Simple Website
+First website copying from website template
