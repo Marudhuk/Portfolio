@@ -1,2 +1,2 @@
 # Simple Website
-First website copying from website template
+First website copying from start bootstrap template
