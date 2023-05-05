@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
+.home-section .navbar-brand img {
+  width: 200px;
+}
+.nav-section {
+  background-color: transparent !important;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border: none;
+}
+
+.home-section {
+  background-image: url("./assests/header-bg.jpg");
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+}
+.header-center {
+  text-align: center;
+  color: white;
+  padding-top: 9rem;
+  padding-bottom: 12.5rem;
+}
+.header-center p {
+  font-family: "Roboto Slab", serif;
+  font-size: 2.25rem;
+  font-style: italic;
+  line-height: 2.25rem;
+  margin-bottom: 2rem;
+}
+.nav-container {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+#navbarSupportedContent .nav-link {
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+  color: #fff;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+#navbarSupportedContent a:hover {
+  color: #ffc800 !important;
+}
+#navbarSupportedContent a:active {
+  color: #ffc800 !important;
+
+}
+.header-center h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+}
+.header-center button {
+  padding: 1.25rem 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #ffc800;
+  border-color: #ffc800;
+}
+
+.header-center button:hover {
+  color: #fff !important;
+  background-color: #d9aa00 !important;
+  border-color: #cca000 !important;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.section .sub-title {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 4rem;
+  color: #6c757d !important;
+}
+
+.section {
+  padding: 6rem 0;
+}
+
+.holder {
+  height: 140px;
+  width: 140px;
+  background: rgba(255, 200, 0, 1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  color: white;
+  width: 105px;
+  height: 67px;
+}
+.cardd h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.cardd p {
+  color: #6c757d !important;
+  line-height: 1.75;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.cardd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.background {
+  background-color: rgba(248, 249, 250, 1);
+}
+
+.portfolio-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.portfolio img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.portfolio h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.portfolio p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 0;
+  color: #6c757d !important;
+}
+.one .timeline-img-1 {
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  z-index: 1;
+  left: 20px;
+}
+
+.timeline-img-1 img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.timeline-section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.timeline > li {
+  min-height: 100px;
+  margin-bottom: 100px;
+  position: relative;
+  display: flex;
+}
+.timeline > li .timeline-img-1 {
+  width: 170px;
+  height: 170px;
+  margin-left: 9px;
+  border: 7px solid #e9ecef;
+}
+.two .timeline-img-1 {
+  margin-left: 19px !important;
+}
+.timeline-img-1 > img {
+  border-radius: 50%;
+}
+.timeline > li .timeline-content {
+  padding: 0 20px 20px 100px;
+  float: left;
+  width: 41%;
+  text-align: right;
+  position: relative;
+}
+
+.timeline > li.two > .timeline-content {
+  float: right;
+  padding: 0 30px 20px 20px;
+  text-align: left;
+  position: relative;
+  width: 41%;
+}
+.two {
+  justify-content: flex-end;
+  margin-right: 83px;
+}
+.two .timeline-img-1 {
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  z-index: 1;
+  left: 20px;
+}
+
+.timeline > .thre {
+  min-height: 100px;
+  margin-bottom: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-right: 42px;
+}
+
+.thre .timeline-img-1 {
+  text-align: center;
+  color: white;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color: #ffc800;
+}
+
+.thre h4 {
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.timeline-section span {
+  display: inline-block;
+  border-right: 2px solid #e9ecef;
+  position: relative;
+  left: 50%;
+  height: 81rem;
+}
+
+.team .head-team {
+  text-align: center !important;
+}
+.head-team h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.head-team h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 4rem;
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+}
+
+.team-img {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 50%;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.team-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.row-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-icon svg {
+  width: 20px !important;
+  height: 20px;
+}
+
+.team-icon a {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-icon {
+  display: flex;
+}
+.team-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+.team-detail h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.team-detail p {
+  color: #6c757d !important;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.team-para {
+  text-align: center;
+  margin: 0 220px;
+  padding: 0 12px;
+}
+.team-para p {
+  color: #6c757d !important;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+#team {
+  background-color: rgba(248, 249, 250, 1);
+}
+
+.company img {
+  margin: 0 50px 0 50px;
+  width: 205px;
+  height: 44px;
+}
+
+.company {
+  margin: 0 12px;
+  padding: 16px 0;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.contact h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 4rem;
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+}
+
+.contact .form {
+  text-align: center;
+}
+
+.input {
+  padding: 1.25rem;
+  width: 100%;
+  border-radius: 7px;
+  margin-bottom: 1.5rem;
+  /* font-size: 1rem;
+  font-family: "Roboto Slab", serif;
+  color: #6c757d !important; */
+}
+textarea {
+  padding: 1.25rem;
+
+  height: 100%;
+  width: 100%;
+  border-radius: 7px;
+}
+
+#contact {
+  background-color: #212529;
+  background-image: url(./assests/map-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#contactform .btnn{
+  padding: 1.25rem 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #ffc800;
+  border-color: #ffc800;
+}
+#contactform .btnn:hover{
+  color: #fff !important;
+  background-color: #d9aa00 !important;
+  border-color: #cca000 !important;
+}
+.footer-link a{
+  color: #212529 !important;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+.footer-icon{
+  justify-content: center;
+}
+.footer-icon a{
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.footer-icon svg{
+  height: 1em;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ 
+  
+}
